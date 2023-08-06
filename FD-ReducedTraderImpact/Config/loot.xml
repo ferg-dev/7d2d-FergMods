@@ -1,0 +1,15 @@
+<config>
+	<!-- remove t2/3 tools from quest rewards -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupQuestToolsT2']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='groupQuestTools']/item[@group='groupQuestToolsT2']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='groupQuestToolsT3']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='groupQuestTools']/item[@group='groupQuestToolsT3']" />
+
+	<!-- remove t2/3 melee weapons from quest rewards -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT2']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMelee']/item[@group='groupQuestWeaponsMeleeT2']" />
+
+	<!-- remove t3 ranged weapons from quest rewards (excepting bows) -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT3']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsRanged']/item[@group='groupQuestWeaponsRangedT3']" />
+</config>

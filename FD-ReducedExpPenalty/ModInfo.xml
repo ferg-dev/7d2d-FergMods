@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="FD-ReducedExpPenalty" />
+	<DisplayName value="Reduced Experience Penalty" />
+	<Description value="Hard sets XP penalty at 25%" />
+	<Author value="Ferg" />
+	<Version value="1.0.0" />
+	<Website value="" />
+</xml>

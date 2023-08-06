@@ -1,0 +1,3 @@
+<configs>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='ExpDeficitMaxPercentage']/@value">.25</set>
+</configs>

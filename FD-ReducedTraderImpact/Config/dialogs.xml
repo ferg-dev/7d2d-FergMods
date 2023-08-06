@@ -1,0 +1,16 @@
+<config>
+	<!-- reduce available quests from 5 to 3 -->
+	<remove xpath="/dialogs/dialog[@id='trader']/statement[starts-with(@id, 'currentjobs')]/quest_entry[@listindex &gt; 2]" />
+	
+	<!-- only allow quests from current and previous tier -->
+	<remove xpath="/dialogs/dialog[@id='trader']/statement[starts-with(@id, 'currentjobs3')]/response_entry[@id='jobsprev1']" />
+	<remove xpath="/dialogs/dialog[@id='trader']/statement[starts-with(@id, 'currentjobs4')]/response_entry[@id='jobsprev1']" />
+	<remove xpath="/dialogs/dialog[@id='trader']/statement[starts-with(@id, 'currentjobs4')]/response_entry[@id='jobsprev2']" />
+	<remove xpath="/dialogs/dialog[@id='trader']/statement[starts-with(@id, 'currentjobs5')]/response_entry[@id='jobsprev1']" />
+	<remove xpath="/dialogs/dialog[@id='trader']/statement[starts-with(@id, 'currentjobs5')]/response_entry[@id='jobsprev2']" />
+	<remove xpath="/dialogs/dialog[@id='trader']/statement[starts-with(@id, 'currentjobs5')]/response_entry[@id='jobsprev3']" />
+	<remove xpath="/dialogs/dialog[@id='trader']/statement[starts-with(@id, 'currentjobs6')]/response_entry[@id='jobsprev1']" />
+	<remove xpath="/dialogs/dialog[@id='trader']/statement[starts-with(@id, 'currentjobs6')]/response_entry[@id='jobsprev2']" />
+	<remove xpath="/dialogs/dialog[@id='trader']/statement[starts-with(@id, 'currentjobs6')]/response_entry[@id='jobsprev3']" />
+	<remove xpath="/dialogs/dialog[@id='trader']/statement[starts-with(@id, 'currentjobs6')]/response_entry[@id='jobsprev4']" />
+</config>

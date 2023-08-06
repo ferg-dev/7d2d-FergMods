@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="Nest_Respawn" />
+		<DisplayName value="Nest Respawn" />
+		<Description value="Looted birds nests are replaced with grass graphic while it regrows, can be removed if desired and looks weird on building roofs. Taken from a forum suggestion to Sam's Empty Nesty mod" />
+		<Author value="Ferg" />
+		<Version value="1.0.0" />
+</xml>

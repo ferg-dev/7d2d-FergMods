@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="Quality_Six_Crafting" />
+		<DisplayName value="Quality 6 Crafting" />
+		<Description value="Allows for crafting of quality 6 items and expands the max level of related crafting skill" />
+		<Author value="Ferg" />
+		<Version value="1.0.0" />
+</xml>

@@ -1,0 +1,5 @@
+<config>
+	<set xpath="/gamestages/config/@daysAliveChangeWhenKilled">4</set>
+	<set xpath="/gamestages/config/@difficultyBonus">1</set>
+	<set xpath="/gamestages/config/@diminishingReturns">0.75</set>
+</config>

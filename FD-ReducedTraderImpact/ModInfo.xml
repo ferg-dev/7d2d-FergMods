@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="Reduced_Trader_Impact" />
+		<DisplayName value="Reduced Trader Impact" />
+		<Description value="Reduces quest reward choices, reduces quests offered, removes high tier rewards, reduces open time, reduces available skill magazines, and reduces trader item max quality" />
+		<Author value="Ferg" />
+		<Version value="1.0.0" />
+</xml>

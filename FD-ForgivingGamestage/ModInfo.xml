@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="Forgiving_Gamestage" />
+		<DisplayName value="Forgiving Gamestage" />
+		<Description value="Eases the gamestage progression if you die a lot" />
+		<Author value="Ferg" />
+		<Version value="1.0.0" />
+</xml>

@@ -1,0 +1,18 @@
+<configs>
+    <append xpath="/blocks">
+        <block name="BirdNestGrowing">
+            <property name="Class" value="PlantGrowing"/>
+            <property name="Collide" value="melee,bullet,arrow,rocket"/>
+            <property name="Extends" value="treeBrownGrassDiagonal"/>
+            <property name="MaxDamage" value="100"/>
+            <property name="PlantGrowing.Next" value="cntBirdnest"/>
+            <property name="PlantGrowing.GrowthRate" value="270"/> <!-- In-game minutes (presumes 90-min days [3 days]) -->
+            <property name="SortOrder2" value="0007"/>
+            <property name="Texture" value="201,306,371,201,306,371"/>
+        </block>
+    </append>
+
+    <insertAfter xpath="/blocks/block[@name='cntBirdnest']/property[@name='StabilitySupport']">
+        <property name="DowngradeBlock" value="BirdNestGrowing"/>
+    </insertAfter>
+</configs>
