@@ -3,9 +3,9 @@
     <!-- <set xpath="/quests/@quests_per_tier">7</set> -->
 	
 	<!-- reduce reward choices (except for restore power quests) -->
-	<set xpath="/quests/quest[@id='tier1_fetch']/property[@name='reward_choices_count']">3</set>
-	<set xpath="/quests/quest[@id='tier1_clear']/property[@name='reward_choices_count']">3</set>
-	<set xpath="/quests/quest[@id='tier2_clear_infested']/property[@name='reward_choices_count']">3</set>
-	<set xpath="/quests/quest[@id='tier2_fetch_clear']/property[@name='reward_choices_count']">3</set>
-	<set xpath="/quests/quest[@id='tier1_buried_supplies']/property[@name='reward_choices_count']">3</set>
+	<set xpath="/quests/quest[@id='tier1_fetch']/property[@name='reward_choices_count']/@value">3</set>
+	<set xpath="/quests/quest[@id='tier1_clear']/property[@name='reward_choices_count']/@value">3</set>
+	<set xpath="/quests/quest[@id='tier2_clear_infested']/property[@name='reward_choices_count']/@value">3</set>
+	<set xpath="/quests/quest[@id='tier2_fetch_clear']/property[@name='reward_choices_count']/@value">3</set>
+	<set xpath="/quests/quest[@id='tier1_buried_supplies']/property[@name='reward_choices_count']/@value">3</set>
 </config>
